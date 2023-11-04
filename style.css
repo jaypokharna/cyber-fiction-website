@@ -76,6 +76,12 @@ html,body{
     background-color: #f1f1f1;
 }
 
+#page4{
+    position: relative;
+    height: 104vh;
+    width: 100vw;
+}
+
 
 canvas{
     position: relative;
@@ -203,7 +209,7 @@ canvas{
 #page2-left-text{
 
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 4%;
 
 }
@@ -234,7 +240,7 @@ canvas{
 
 }
 
-#above{
+#page2-right-text-above{
     
     font-size: 0.9rem;
     font-weight: 400;
@@ -243,10 +249,134 @@ canvas{
 
 }
 
-#below{
+#page2-right-text-below{
 
     font-size: 0.9rem;
     font-weight: 400;
     margin-top: 12px;
     
+}
+
+#page3-left-text{
+
+    position: absolute;
+    top: 44%;
+    left: 4%;
+
+}
+
+#page3-left-text-above{
+    
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-top: 12px;
+
+}
+
+#page3-left-text-below{
+
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-top: 12px;
+    color: #7c7c7c;
+    
+}
+
+
+#page3-right-text{
+
+    position: absolute;
+    top: 25%;
+    right: 4%;
+    text-align: right;
+
+}
+
+#page3-right-text>h1{
+
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 1.2em;
+
+}
+
+#page3-right-text>h4{
+
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-bottom: 12px;
+    color: #7c7c7c;
+
+}
+
+#page4-content{
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    width: 100%;
+    padding-top: 70px;
+}
+
+#title>h4{
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin: 8px;
+    text-align: center;
+}
+
+#mid>h1{
+
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 1.2em;
+    text-align: center;
+
+}
+
+#end{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+#end>h4{
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-bottom: 12px;
+    margin: 0px 20px;
+}
+
+#main-avatars{
+    display: flex;
+    position: absolute;
+    bottom: 0%;
+}
+
+#main-avatars-wrap{
+    display: flex;
+}
+
+#main-avatars-wrap>span{
+    height: 400px;
+    width: 300px;
+    animation-name: slide;
+    animation-duration: 19s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#main-avatars-wrap>span>img{
+    height: 400px;
+    width: 400px;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+   
+    100% {
+        transform: translateX(-1300%);
+    }
 }
