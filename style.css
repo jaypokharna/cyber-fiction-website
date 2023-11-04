@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&family=Roboto+Mono:wght@500&family=Urbanist&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 *{
     margin: 0%;
@@ -9,9 +9,7 @@
 html,body{
     height: 100%;
     width: 100%;
-    /* font-family: 'Lato', sans-serif; */
-    font-family: 'Roboto Mono', monospace;
-
+    font-family: 'Urbanist', sans-serif;
 
 }
 
@@ -21,15 +19,21 @@ html,body{
     justify-content: space-between;
     height: 7%;
     width: 100%;
-    /* background-color: red; */
     position: fixed;
     z-index: 9;
     padding: 0px 25px;
 }
 
-#nav>h3{
-    font-weight: 360;
-    font-size: 22px;
+#nav>h1>span{
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+#nav>h1{
+
+    font-weight: 800;
+    font-size: 1.5rem;
+
 }
 
 #nav>button{
@@ -56,20 +60,20 @@ html,body{
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-color: blue;
+    background-color: #f1f1f1;
 }
 #page2{
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-color: green;
+    background-color: #f1f1f1;
 }
 
 #page3{
     position: relative;
     height: 100vh;
     width: 100vw;
-    background-color: yellow;
+    background-color: #f1f1f1;
 }
 
 
@@ -87,13 +91,8 @@ canvas{
     top: 30%;
     height: 25%;
     width: 100%;
-    /* background-color: red; */
     font-size: 100px;
     white-space: nowrap;
-    /* font-family: 'Lato', sans-serif; */
-    /* font-family: sans-serif */
-    font-family: 'Urbanist', sans-serif;
-    
     
 }
 
@@ -150,18 +149,104 @@ canvas{
     text-align: right;
 }
 
-#abv-left-text{
+#page1-left-text{
+
+    position: absolute;
+    top: 32%;
+    left: 4%;
 
 }
 
-#left-text{
+#page1-left-text>h1{
+
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 1.2em;
 
 }
 
-#right-text{
+#page1-left-text>h4{
+
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-bottom: 12px;
+    color: #7c7c7c;
 
 }
 
-#bel-right-text{
+#page1-right-text{
 
+    position: absolute;
+    top: 50%;
+    right: 4%;
+    text-align: right;
+
+}
+
+#page1-right-text>h1{
+
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 1.2em;
+
+}
+
+#page1-right-text>h4{
+
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-top: 12px;
+    color: #7c7c7c;
+
+}
+
+#page2-left-text{
+
+    position: absolute;
+    top: 30%;
+    left: 4%;
+
+}
+
+#page2-left-text>h1{
+
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 1.2em;
+
+}
+
+#page2-left-text>h4{
+
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-bottom: 12px;
+    color: #7c7c7c;
+
+}
+
+#page2-right-text{
+
+    position: absolute;
+    top: 45%;
+    right: 4%;
+    text-align: right;
+
+}
+
+#above{
+    
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-top: 12px;
+    color: #7c7c7c;
+
+}
+
+#below{
+
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-top: 12px;
+    
 }
