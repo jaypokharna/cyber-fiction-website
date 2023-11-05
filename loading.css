@@ -7,6 +7,11 @@
     animation: spin 1s linear infinite;
 }
 
+#loader>img{
+    height: 50px;
+    width: 50px;
+}
+
 .center {
     position: absolute;
     top: 0;
