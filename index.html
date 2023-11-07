@@ -15,8 +15,6 @@
         integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="loading.css">
-    <script src="loading.js"></script>
 </head>
 
 <body>
@@ -27,27 +25,31 @@
 
     <div id="nav">
         <h1>CYBER<span>FICTION*</span></h1>
-        <button>APRIL, 2023</button>
+        <div id="buttons">
+            <button id="modes">Dark Mode</button>
+            <button>APRIL, 2023</button>
+        </div>
     </div>
 
     <div id="main">
         <div id="page">
             <div id="loop">
-                <h1><b>CYBER</b>FICTION* IS THE <b><i>REAL</i></b> <span> STORY</span> IN THE
-                    <span><i>METAVERSE.</i></span>
+                <h1><b>CYBER</b>FICTION* IS THE <b><i>REAL</i></b> <span class="line"> STORY</span> IN THE
+                    <span class="line"><i>METAVERSE.</i></span>
                 </h1>
-                <h1><b>CYBER</b> FICTION* IS THE <b><i>REAL</i></b> <span> STORY</span> IN THE
-                    <span><i>METAVERSE.</i></span>
+                <h1><b>CYBER</b> FICTION* IS THE <b><i>REAL</i></b> <span class="line"> STORY</span> IN THE
+                    <span class="line"><i>METAVERSE.</i></span>
                 </h1>
-                <h1><b>CYBER</b> FICTION* IS THE <b><i>REAL</i></b> <span> STORY</span> IN THE
-                    <span><i>METAVERSE.</i></span>
+                <h1><b>CYBER</b> FICTION* IS THE <b><i>REAL</i></b> <span class="line"> STORY</span> IN THE
+                    <span class="line"><i>METAVERSE.</i></span>
                 </h1>
             </div>
             <h3 id="english">CYBERFICTION AIMS TO BE A DECENTRALIZED COMMUNITY THAT CAN <br> CREATE NEW VALUES AND
                 PROFITS THROUGH PLAY IN THE VIRTUAL <br> WORLD.</h3>
             <h3 id="chinese">사이버픽션은 가상 세계에서 놀이를 통해 새로운 가치와 이윤을 창조할 수 있는 탈중 <br> 앙화 커뮤니티를 지향합니다.</h3>
             <h4>...SCROLL TO READ</h4>
-            <canvas></canvas>
+            <canvas id="canvas1"></canvas>
+            <canvas id="canvas2"></canvas>
         </div>
         <div id="page1">
             <div id="page1-left-text">
@@ -186,10 +188,12 @@
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </div>
-    
+
+    <!-- <script src="modes.js"></script> -->
+    <script src="loading.js"></script>
     <script src="script.js"></script>
 </body>
 
